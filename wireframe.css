@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  
+  footer {
+    padding: 2% 0;
+    background-color: #a80038;
+    color:white;
+  }
+
+  
+  
+  .topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #a80038;
+    position: relative;
+  }
+  
+  /*.topnav #myLinks {
+ display: none;
+  }*/
+  
+  .topnav a {
+    float: left;
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    width: 30%;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  header {
+    padding: 12% 0;
+  }
+  
+  section {
+    padding: 3% 0;
+    background-color: #ff9c91;
+    font-size: 15px;
+  }
+  
+  
+  h2{
+      color:white;
+      background-color: #1c2938;
+      margin-bottom: 10%;
+  }
+
+  
+  form{
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  
+  
+
+  @media screen and (min-width: 321px){
+    
+  }
