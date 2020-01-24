@@ -13,7 +13,7 @@
   
   footer {
     padding: 2% 0;
-    background-color: #a80038;
+    background-color: black;
     color:white;
   }
 
@@ -22,7 +22,7 @@
   .topnav {
     position: fixed;
     overflow: hidden;
-    background-color: #a80038;
+    background-color: black;
     position: relative;
   }
   
@@ -54,7 +54,7 @@
   
   section {
     padding: 3% 0;
-    background-color: #ff9c91;
+    background-color: rgb(175, 172, 172);
     font-size: 15px;
   }
   
@@ -71,9 +71,23 @@
       margin: 0 auto;
   }
 
-  
+  #menu{
+    display: none;
+  }
   
 
   @media screen and (min-width: 321px){
-    
+    .topnav{
+      margin-top:20px ;
+      float: left !important;
+      text-align: left !important;
+      width: inherit !important;
+    }
+    .topnav a.icon {
+      display: none;
+    }
+    #menu{
+      display: initial;
+      float: left;
+    }
   }
