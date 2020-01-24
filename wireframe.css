@@ -26,6 +26,14 @@
     position: relative;
   }
   
+   .picture{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+  }
+
+  
   /*.topnav #myLinks {
  display: none;
   }*/
@@ -98,4 +106,25 @@
       display: initial;
       float: left;
     }
+     h3{
+       display: inline-block;
+       margin-right: 15%;
+     }
+
+     .intro{
+       width: 40%;
+       max-width: 200px;
+       margin-left: 15%;
+       display: inline-block;
+     }
+
+     .pf{
+      margin-left: 20%;
+      margin-top: 20px;
+      float: left;
+     }
+     .code{
+       float: right;
+       margin-right: 20%;
+     }
   }
