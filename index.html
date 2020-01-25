@@ -8,23 +8,23 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Slab&display:400,600=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-    <header aria-live="polite" role="banner" id='home'>
+    <header aria-live="polite" id='home'>
         <div class='hello'>
         <h1>Hello,</h1>
         <h1> I'm Hsin Ling Hu</h1>
        </div>
         
-        <button type='button' class='startButton'><a href="#about">Take a peek at my project >></a></button>
+        <p class='startP'>Take a peek at my project  <i class="fas fa-angle-double-down"></i></p>
       
     </header>
 
-    <main role="main" aria-live="polite" class='main' hidden>
+    <main aria-live="polite" class='main'>
         <!-- Top Navigation Menu -->
         <ul>
             <li class='spr'><a href="#home">Home</a></li>
@@ -44,6 +44,8 @@
                 <p>I was born and raised in Taiwan. My interests include outdoor activities, sports, a healthy diet, and movies. 
                     I get personal satisfaction from solving what initially seemed like an unsolvable problem and it energizes me to become better and better.
                 </p>
+                <p>I  wish to be part of the team where teammates desire to unselfishly share their knowledge and help other developers improve. I strive to help teammates when they get stuck and take criticism well because I value team achievement more than personal. 
+                </p>
                 <div>
                     <h3>My Skills</h3>
 
@@ -51,19 +53,16 @@
                 </div>
             </form>
         </section>
-        <section id='project'>
-            <section class='thin project1'>
+            <section id='project' class='thin project1'>
                 <h2>Project - Quiz App</h2>
                 <div class='quizdiv'>
                     <img src="images/quiz-app-webpage.png" class="quizapp" alt="quiz app project ">
                     <p class="overlay">Test your entry-level knowledge of Front-web development. The app will show the
-                        correct answer and current score after you submit your answers.  <em>--HTML, CSS, Javascript</em></p>
+                        correct answer and current score after you submit your answers.  <br><em>--HTML, CSS, Javascript</em></p>
                 </div>
                 <div class='pro first'>
-                    <a href="https://thinkful-ei-leopard.github.io/hsin_gage_quiz-app/" target="_blank"><button
-                            class='btn btn1'>Live Page</button></a>
-                    <a href="https://github.com/hsinlinghu1101/hsinlinghu1101.github.io.git" target="_blank"><button
-                            class='btn btn2'>Github code</button></a>
+                    <a href="https://thinkful-ei-leopard.github.io/hsin_gage_quiz-app/" target="_blank" class='btn btn1'>Live Page</a>
+                    <a href="https://github.com/hsinlinghu1101/hsinlinghu1101.github.io.git" target="_blank" class='btn btn2'>Github code</a>
                 </div>
             </section>
             <section class='thin project2'>
@@ -71,20 +70,18 @@
                 <div class='quizdiv'>
                     <img src="images/bookmark.png" class="quizapp" alt="bookmark project">
                     <p class="overlay"> Create your bookmarks with the rating selection, you can also edit and delete
-                        them later.<em>--HTML, CSS, Javascript</em></p>
+                        them later.<br><em>--HTML, CSS, Javascript</em></p>
                 </div>
                 <div class='pro second'>
-                    <a href=" https://thinkful-ei-leopard.github.io/hsinling-bookmark-app/." target="_blank"><button
-                            class='btn btn1'>Live Page</button></a>
-                    <a href="https://github.com/thinkful-ei-leopard/hsinling-bookmark-app.git" target="_blank"><button
-                            class='btn btn2'>Github code</button></a>
+                    <a href=" https://thinkful-ei-leopard.github.io/hsinling-bookmark-app/." target="_blank" class='btn btn1'>Live Page</a>
+                    <a href="https://github.com/thinkful-ei-leopard/hsinling-bookmark-app.git" target="_blank" class='btn btn2'>Github code</a>
                 </div>
             </section>
-        </section>
+        
 
 
 
-        <footer aria-live="polite" role="content-info">
+        <footer aria-live="polite">
             <a href="https://www.linkedin.com/in/hsin-ling-hu-coder/" target="_blank"><i
                     class="fab fa-linkedin"></i></a>
             <a href="https://github.com/hsinlinghu1101" target="_blank"><i class="fab fa-github"></i></a>
