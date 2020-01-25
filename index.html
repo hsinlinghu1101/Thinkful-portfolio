@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>HTML wireframe</title>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="wireframe.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Slab&display:400,600=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-    
-    
-        <!-- Top Navigation Menu -->
-        <div class="topnav">
-        <div id="myLinks">
-        <ul>
-            <li><a href="#home" >Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projext">Project</a></li>
-          </div>
-          <li><a href="#" class="icon" >
-            <i class="fa fa-bars"></i> Menu
-          </a>
-        </li>
-        </ul>
-        </div>
-    <main role="main">
-        <header role="banner">
-        <button id='menu'>Menu</button>
+    <header aria-live="polite" role="banner" id='home'>
+        <div class='hello'>
         <h1>Hello,</h1>
         <h1> I'm Hsin Ling Hu</h1>
-        <button type='button' class='startButton'>View My Project >></button>
-        </header>
-        <section>
-            <form class='aboutMe'>
-            <h2>About Me</h2>
-            <div>
-            <div class='picture pf'></div>
-            <p class="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-            <div>
-                <h3>My Skills</h3>
+       </div>
+        
+        <button type='button' class='startButton'><a href="#about">Take a peek at my project >></a></button>
+      
+    </header>
 
-                <div class='picture code'></div>
-            </div>
-            
+    <main role="main" aria-live="polite" class='main' hidden>
+        <!-- Top Navigation Menu -->
+        <ul>
+            <li class='spr'><a href="#home">Home</a></li>
+            <li class='spr'><a href="#about">About</a></li>
+            <li class='spr'><a href="#project">Project</a></li>
+            <li><a href="#" class="icon" ><i class="fa fa-bars"></i>Menu </a></li>
+        </ul>
+
+
+        <section id='about'>
+            <form class='aboutMe'>
+                <h2>About Me</h2>
+                <img id='myself' src="images/personal.jpg" alt="profile picture">
+                <p>I’m a Greater Los Angeles based aspiring web designer & front-web developer focused on crafting clean
+                    & user-friendly experience. 
+                </p>
+                <p>I was born and raised in Taiwan. My interests include outdoor activities, sports, a healthy diet, and movies. 
+                    I get personal satisfaction from solving what initially seemed like an unsolvable problem and it energizes me to become better and better.
+                </p>
+                <div>
+                    <h3>My Skills</h3>
+
+                    <img src="images/html5-logo.png" class="code" alt="code languages">
+                </div>
             </form>
         </section>
-        
-        <section class='thin project1'>
-            <h2>Project - Quiz App</h2>
-            <div class ='quizdiv'>
-                <div class='picture'></div>
-            <p class="overlay">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-            </div>
-            <div class='pro first'>
-            <a href="#" target="_blank"><button class='btn1'>Live Page</button></a>
-             <a href="#" target="_blank"><button class='btn2'>Github code</button></a>
-            </div>
+        <section id='project'>
+            <section class='thin project1'>
+                <h2>Project - Quiz App</h2>
+                <div class='quizdiv'>
+                    <img src="images/quiz-app-webpage.png" class="quizapp" alt="quiz app project ">
+                    <p class="overlay">Test your entry-level knowledge of Front-web development. The app will show the
+                        correct answer and current score after you submit your answers.  <em>--HTML, CSS, Javascript</em></p>
+                </div>
+                <div class='pro first'>
+                    <a href="https://thinkful-ei-leopard.github.io/hsin_gage_quiz-app/" target="_blank"><button
+                            class='btn btn1'>Live Page</button></a>
+                    <a href="https://github.com/hsinlinghu1101/hsinlinghu1101.github.io.git" target="_blank"><button
+                            class='btn btn2'>Github code</button></a>
+                </div>
+            </section>
+            <section class='thin project2'>
+                <h2>Project - Bookmarks</h2>
+                <div class='quizdiv'>
+                    <img src="images/bookmark.png" class="quizapp" alt="bookmark project">
+                    <p class="overlay"> Create your bookmarks with the rating selection, you can also edit and delete
+                        them later.<em>--HTML, CSS, Javascript</em></p>
+                </div>
+                <div class='pro second'>
+                    <a href=" https://thinkful-ei-leopard.github.io/hsinling-bookmark-app/." target="_blank"><button
+                            class='btn btn1'>Live Page</button></a>
+                    <a href="https://github.com/thinkful-ei-leopard/hsinling-bookmark-app.git" target="_blank"><button
+                            class='btn btn2'>Github code</button></a>
+                </div>
+            </section>
         </section>
-        <section class='thin project2'>
-            <h2>Project - Bookmarks</h2>
-            <div class ='quizdiv'>
-                <div class='picture'></div>
-            <p class="overlay">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-            </div>
-            <div class='pro second'>
-            <a href="#" target="_blank"><button class='btn1'>Live Page</button></a>
-            <a href="#" target="_blank"><button class='btn2'>Github code</button></a>
-            </div>
-        </section>
-      
-        
-    
+
+
+
+        <footer aria-live="polite" role="content-info">
+            <a href="https://www.linkedin.com/in/hsin-ling-hu-coder/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/hsinlinghu1101" target="_blank"><i class="fab fa-github"></i></a>
+            <A HREF="mailto:hsinkava11@gmail.com" target="_blank"><i class="fas fa-envelope"></i></A>
+
+        </footer>
     </main>
-    <footer role="content-info">
-        footer
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
