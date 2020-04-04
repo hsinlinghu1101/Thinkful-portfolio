@@ -19,7 +19,6 @@
     background-color: #a80038;
     color:white;
     padding: 3px 0;
-    margin-top: 3%;
   
   }
 
@@ -56,6 +55,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    margin-bottom: 0;
   }
   li {
     display: flex;
@@ -85,9 +85,7 @@
       padding: 1% 0;
   }
 
-  .second{
-     margin-bottom: 25px;
-  }
+  
 
   .quizapp{
       width: 100%;
@@ -99,6 +97,7 @@
   }
   .quizdiv{
       margin: 0 auto;
+      width: 90%;
   }
 
   #myself{
@@ -114,6 +113,18 @@
   .code{
       width:80%;
       margin: 3% 0;
+  }
+  .node{
+    width: 30%;
+  }
+  .react{
+    width:20%;
+  }
+  .sql{
+    width:30%;
+  }
+  .exp{
+    width:50%;
   }
 
   .btn{
@@ -195,6 +206,19 @@
       max-width: 300px;
       margin: 3% 0;
      }
+     .node{
+      max-width: 120px;
+    }
+    .react{
+      max-width: 80px;
+    }
+    .sql{
+      max-width: 120px;
+    }
+    .exp{
+      max-width: 200px;
+    }
+  
      #myself{
     max-width: 300px;
      }
@@ -222,7 +246,6 @@
 
    footer{
      padding: 3px 0;
-     margin-top: 3%;
    }
 
    i{
@@ -252,5 +275,26 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .third .btn{
+     margin-left: 4%;
+     margin-right: 4%;
+  }
     
+  }
+
+  @media screen and (max-width: 580px){
+   
+   .three {
+       
+       
+    }
+   
+    .third .btn{
+        margin:4%;
+        padding: 2%;
+        border-radius: 10px;
+        font-size:13px ;
+        display: inline-block;
+      }
+ 
   }
