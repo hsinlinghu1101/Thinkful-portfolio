@@ -58,7 +58,7 @@
     position: sticky;
     top: 0;
     margin-bottom: 0;  
-    margin-top: -40px;
+    margin-top: 0;
   }
   li {
     display: flex;
@@ -86,6 +86,7 @@
  }
  .title{
   font-size: 18px;
+  font-weight: bold;
   margin-top: 0;
   color: rgb(37, 37, 37);
  }
@@ -317,7 +318,7 @@
   }
   .arrow{
     margin-top: 300px;
-    opacity: 0.7;
+    opacity: 0.8;
     color: white;
     font-size: 30px;
   }
